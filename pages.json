@@ -1,0 +1,155 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"ff-(.*)": "@/components/ff-$1/ff-$1.vue", // 自定义组件
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue" // uView ui
+		}
+	},
+	"pages": [{
+			"path": "pages/home/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/home/list/index",
+			"style": {}
+		},
+		{
+			"path": "pages/home/so/index",
+			"style": {
+				"navigationBarTitleText": "分类查询"
+			}
+		},
+
+		{
+			"path": "pages/so/index/index",
+			"style": {
+				"navigationBarTitleText": "商标查询"
+			}
+		},
+		{
+			"path": "pages/so/list/index",
+			"style": {
+				"navigationBarTitleText": "分类查询"
+			}
+		},
+		{
+			"path": "pages/so/view/index",
+			"style": {
+				"navigationBarTitleText": "商标详情"
+			}
+		},
+		{
+			"path": "pages/order/index/index",
+			"style": {
+				"navigationBarTitleText": "订单列表"
+			}
+		},
+		{
+			"path": "pages/order/form/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/cart/index/index",
+			"style": {
+				"navigationBarTitleText": "已选分类"
+			}
+		},
+		{
+			"path": "pages/user/index/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/user/system/index",
+			"style": {
+				"navigationBarTitleText": "系统设置"
+			}
+		},
+		{
+			"path": "pages/user/applicant/index",
+			"style": {
+				"navigationBarTitleText": "申请人列表"
+			}
+		},
+		{
+			"path": "pages/user/applicant/form",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/user/document/index",
+			"style": {
+				"navigationBarTitleText": "发文列表"
+			}
+		},
+		{
+			"path": "pages/user/tools/weituoshu",
+			"style": {
+				"navigationBarTitleText": "生成委托书"
+			}
+		},
+		{
+			"path": "pages/user/tools/tuyang",
+			"style": {
+				"navigationBarTitleText": "生成图样"
+			}
+		},
+		{
+			"path": "pages/status/error/index",
+			"style": {
+				"navigationBarTitleText": "提示"
+			}
+		},
+		{
+			"path": "pages/share/index/index",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"color": "#211B12",
+		"selectedColor": "#211B12",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/index/index",
+				"iconPath": "static/icon/xl1.png",
+				"selectedIconPath": "static/icon/xl2.png",
+				"text": "选类"
+			}, {
+				"pagePath": "pages/cart/index/index",
+				"iconPath": "static/icon/cart1.png",
+				"selectedIconPath": "static/icon/cart2.png",
+				"text": "已选"
+			},
+			{
+				"pagePath": "pages/so/index/index",
+				"iconPath": "static/icon/so1.png",
+				"selectedIconPath": "static/icon/so2.png",
+				"text": "查询"
+			},
+			{
+				"pagePath": "pages/order/index/index",
+				"iconPath": "static/icon/od1.png",
+				"selectedIconPath": "static/icon/od2.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/user/index/index",
+				"iconPath": "static/icon/us1.png",
+				"selectedIconPath": "static/icon/us2.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "超龙商标",
+		"navigationBarBackgroundColor": "#2979ff",
+		"backgroundColor": "#F8F8F8"
+	}
+}
